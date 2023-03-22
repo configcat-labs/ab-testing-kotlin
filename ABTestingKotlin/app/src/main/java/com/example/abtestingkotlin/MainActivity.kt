@@ -34,10 +34,10 @@ class MainActivity : AppCompatActivity() {
         val myButton: Button = findViewById(R.id.myButton)
 
         if(priceShown){
-            myButton.text="Subscribe to Premium!"
+            myButton.text="Subscribe to Premium! $4.99"
         }
         else {
-            myButton.text="Subscribe to Premium! $4.99"
+            myButton.text="Subscribe to Premium!"
 
         }
         
