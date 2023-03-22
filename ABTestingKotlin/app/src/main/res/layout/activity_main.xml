@@ -1,0 +1,56 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Not enough entertainment?"
+        android:textSize="24sp"
+        android:textColor="#333"
+        android:gravity="center"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="We know there's never enough to watch, listen or read. But we might have an option. With a premium AwesomeApp account you get access to:"
+        android:textSize="16sp"
+        android:paddingTop="16dp"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="• Over 100+ new books every month"
+        android:textSize="16sp"
+        android:paddingTop="8dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="• Undiscovered, new artists right in your playlist"
+        android:textSize="16sp"
+        android:paddingTop="8dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="• More than 300 new movies each month"
+        android:textSize="16sp"
+        android:paddingTop="8dp"/>
+
+    <Button
+        android:id="@+id/myButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Subscribe to Premium!"
+        android:textSize="18sp"
+        android:textColor="#fff"
+        android:background="#333"
+        android:padding="16dp"
+        android:layout_marginTop="16dp"/>
+
+</LinearLayout>
